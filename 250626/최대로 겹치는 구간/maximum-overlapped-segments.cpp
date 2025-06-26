@@ -8,7 +8,7 @@ int a,b;
 int main() {
     cin >> n;
 
-    int arr[200] = {0,};
+    int arr[201] = {0,};
 
     for (int i = 0; i < n; i++) {
         cin >> a >> b;
@@ -18,7 +18,7 @@ int main() {
     }
 
     int max=0;
-    for(int i=0; i<200; i++){
+    for(int i=0; i<201; i++){
         if(arr[i]>max){
             max=arr[i];
         }
