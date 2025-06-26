@@ -17,17 +17,15 @@ int main() {
 
         if(dir == 'L'){
             while(dist--){
-                x--;
                 arr[x]++;
-                
+                x--;
             }
             
         }
         else{ //direction == 'R'
             while(dist--){
-                x++;
                 arr[x]++;
-                
+                x++;
             }
         
         }
